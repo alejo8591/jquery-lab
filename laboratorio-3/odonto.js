@@ -1,3 +1,5 @@
+
+
 function limitTextarea(textarea,maxLines,maxChar){
 		var lines=textarea.value.replace(/\r/g,'').split('\n'),lines_removed,char_removed,i;
 		if(maxLines&&lines.length>maxLines){
