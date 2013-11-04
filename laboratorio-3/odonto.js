@@ -1,5 +1,3 @@
-
-
 function limitTextarea(textarea,maxLines,maxChar){
 		var lines=textarea.value.replace(/\r/g,'').split('\n'),lines_removed,char_removed,i;
 		if(maxLines&&lines.length>maxLines){
@@ -15,7 +13,7 @@ function limitTextarea(textarea,maxLines,maxChar){
           isStacked: true,
 		  backgroundColor: 'transparent',
 		  legend: {position: 'none'},
-		  tooltip: {trigger:'none'},
+		  tooltip: {trigger:'none', text: 'some text'},
 		  axisTitlesPosition: 'none',
 		  theme: {chartArea: {width: '100%', height: '100%'}},
           width: 40,
@@ -3624,3 +3622,10 @@ function limitTextarea(textarea,maxLines,maxChar){
 	  var  totalPlaca=0;
 	  var  totalAnchura=0;
 	  var  totalDientes = 32;
+
+$(document).ready(function(){
+	$('#ps18-a, #ps18-b, #ps18-c').change(function(event) {
+		cargar18a();
+		getDefectos();
+	});
+});

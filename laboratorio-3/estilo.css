@@ -75,6 +75,14 @@ table {
 	border: 1px solid #b4b4b4;
 	text-align:left;
 }
+
+
+#paciente, #apellidos, #fecha {
+	width:120px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
 #datos-personales{
 	width: 100%;
 	margin: 20px 0;
@@ -156,6 +164,8 @@ input{
 }
 
 #suma,#suma2,#suma3,#suma3-neg,#suma4,#suma5{display:inline;}
+
+/* TABLE 1 */
 
 #d18,#d17,#d16,#d15,#d14,#d13,#d12,#d11{
 	text-align: center;
@@ -321,7 +331,12 @@ background: url('img/periodontograma-oblicuas.png') repeat-x center;
 }
 
 
-/*TABLA 2*/
+#ps18-a, #ps18-b, #ps18-c{
+	color: #333;
+	font-size: 9px;
+}
+
+/*TABLE 2*/
 
 #n18,#n17,#n16,#n15,#n14,#n13,#n12,#n11,
 #n21,#n22,#n23,#n24,#n25,#n26,#n27,#n28{
@@ -531,6 +546,7 @@ background: url('img/periodontograma-oblicuas.png') repeat-x center;
 #f18b-a:hover,#f18b-b:hover,#f17b-a:hover,#f17b-b:hover,#f16b-a:hover,#f16b-b:hover{
 	background: #E6E6E6;
 }
+
 #s18b-a,#s18b-b,#s18b-c,
 #s17b-a,#s17b-b,#s17b-c,
 #s16b-a,#s16b-b,#s16b-c,
@@ -599,7 +615,9 @@ background: url('img/periodontograma-oblicuas.png') repeat-x center;
 	text-align:center;
 	border:none;
 }*/
-#diente18b-a,#diente17b-a,#diente16b-a,#diente15b-a,#diente14b-a,#diente13b-a,#diente12b-a,#diente11b-a{
+#diente18b-a,#diente17b-a,#diente16b-a,
+#diente15b-a,#diente14b-a,#diente13b-a,
+#diente12b-a,#diente11b-a{
 	height: 155px;
 	background-repeat: no-repeat;
 }
