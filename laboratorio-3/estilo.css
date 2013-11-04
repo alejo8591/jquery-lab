@@ -401,20 +401,6 @@ background: url('img/periodontograma-oblicuas.png') repeat-x center;
 	margin:0 0 0 13px;
 }
 
-#visualization21a {
-	width: 33px; 
-	height: 160px;
-	position:absolute;
-	margin:0 0 0 7px;
-
-}
-#visualization22a {
-	width: 27px; 
-	height: 160px;
-	position:absolute;
-	margin:0 0 0 5px;
-
-	} 
 /* ----------------------------------------------------------------------- */
 
 
@@ -579,8 +565,64 @@ background: url('img/periodontograma-oblicuas.png') repeat-x center;
 	background-repeat: no-repeat;
 }
 
+/* ----------------------------------------------------------------------- */
+/* visualization svg of google  visualization */
+#visualization21a {
+	width: 33px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 7px;
 
-/*SEGUNDA PARTE DE TABLAS*/
+}
+#visualization22a {
+	width: 27px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 5px;
+
+}
+#visualization23a {
+	width: 28px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 11px;
+}
+#visualization24a {
+	width: 28px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 8px;
+}
+#visualization25a {
+	width: 28px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 8px;
+}
+#visualization26a {
+	width: 55px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 3px;
+}
+
+#visualization27a {
+	width: 40px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 8px;
+}
+
+#visualization28a {
+	width: 40px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 8px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/*Second part of table */
 
 
 #d18b,#d17b,#d16b,#d15b,#d14b,#d13b,#d12b,#d11b{
@@ -751,9 +793,64 @@ background: url('img/periodontograma-oblicuas.png') repeat-x center;
 	background-position: 0 12px;
 	background-repeat: no-repeat;
 }
+/* ----------------------------------------------------------------------- */
+/* visualization svg of google  visualization */
+#visualization18b {
+	width: 40px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 4px;
+}
 
+#visualization17b {
+	width: 40px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 7px;
+}
 
-/*TABLA 2*/
+#visualization16b {
+	width: 48px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 5px;
+}
+#visualization15b {
+	width: 28px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 6px;
+}
+
+#visualization14b {
+	width: 28px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 9px;
+}
+
+#visualization13b {
+	width: 28px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 9px;
+}
+
+#visualization12b {
+	width: 26px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 9px;
+}
+
+#visualization11b {
+	width: 33px; 
+	height: 160px;
+	position:absolute;
+	margin:0 0 0 4px;
+}
+/* ----------------------------------------------------------------------- */
+/*TABLA 4*/
 
 #d21b,#d22b,#d23b,#d24b,#d25b,#d26b,#d27b,#d28b{
 	text-align: center;
