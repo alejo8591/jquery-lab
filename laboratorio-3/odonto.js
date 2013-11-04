@@ -3895,31 +3895,31 @@ $(document).ready(function(){
 		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar21b();
 	});
 	// Operations for "Margen gingivial" 22b
-	$('#mg22-a, #mg22-b, #mg22-c').change(function(event) {
-		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar22a();
+	$('#mg22b-a, #mg22b-b, #mg22b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar22b();
 	});
 	// Operations for "Margen gingivial" 23b
-	$('#mg23-a, #mg23-b, #mg23-c').change(function(event) {
-		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar23a();
+	$('#mg23b-a, #mg23b-b, #mg23b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar23b();
 	});
 	// Operations for "Margen gingivial" 24b
-	$('#mg24-a, #mg24-b, #mg24-c').change(function(event) {
-		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar24a();
+	$('#mg24b-a, #mg24b-b, #mg24b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar24b();
 	});
 	// Operations for "Margen gingivial" 25b
-	$('#mg25-a, #mg25-b, #mg25-c').change(function(event) {
-		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar25a();
+	$('#mg25b-a, #mg25b-b, #mg25b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar25b();
 	});
 	// Operations for "Margen gingivial" 26b
-	$('#mg26-a, #mg26-b, #mg26-c').change(function(event) {
-		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar26a();
+	$('#mg26b-a, #mg26b-b, #mg26b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar26b();
 	});
 	// Operations for "Margen gingivial" 27b
-	$('#mg27-a, #mg27-b, #mg27-c').change(function(event) {
-		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar27a();
+	$('#mg27b-a, #mg27b-b, #mg27b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar27b();
 	});
 	// Operations for "Margen gingivial" 28b
-	$('#mg28-a, #mg28-b, #mg28-c').change(function(event) {
-		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar28a();
+	$('#mg28b-a, #mg28b-b, #mg28b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar28b();
 	});
 });
