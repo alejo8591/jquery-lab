@@ -3711,7 +3711,7 @@ $(document).ready(function(){
 		cargar11a();getDefectos();
 	});
 	//*************************************************************************************
-	// 21 - 28 top rigth vestibular
+	// 21 - 28 top rigth vestibular Table 2
 	//*************************************************************************************
 	// calculate range for "Movilidad"
 	$('#m21, #m22, #m23, #m24, #m25, #m26, #m27, #m28').change(function(event) {
@@ -3755,6 +3755,7 @@ $(document).ready(function(){
 		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar28a();
 	});
 	// ---------------------------------------------------------------------
+	// Table 2
 	// ---------------------------------------------------------------------
 	// Operations for "Profundidad Sondaje" 21
 	$('#ps21-a, #ps21-b, #ps21-c').change(function(event) {
@@ -3789,7 +3790,7 @@ $(document).ready(function(){
 		cargar28a();getDefectos();
 	});
 	//*************************************************************************************
-	// 18 - 11 down left palatino
+	// 18 - 11 down left palatino -Table 3
 	//*************************************************************************************
 	// ---------------------------------------------------------------------
 	// Operations for "Profundidad Sondaje" 18
@@ -3824,4 +3825,38 @@ $(document).ready(function(){
 	$('#ps11b-a, #ps11b-b, #ps11b-c').change(function(event) {
 		cargar11b();getDefectos();
 	});
+	// ---------------------------------------------------------------------
+	// Operations for "Margen gingivial" 18b
+	$('#mg18b-a, #mg18b-b, #mg18b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar18b();
+	});
+	// Operations for "Margen gingivial" 17b
+	$('#mg17b-a, #mg17b-b, #mg17b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar17b();
+	});
+	// Operations for "Margen gingivial" 16b
+	$('#mg16b-a, #mg16b-b, #mg16b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar16b();
+	});
+	// Operations for "Margen gingivial" 15b
+	$('#mg15b-a, #mg15b-b, #mg15b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar15b();
+	});
+	// Operations for "Margen gingivial" 14b
+	$('#mg14b-a, #mg14b-b, #mg14b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar14b();
+	});
+	// Operations for "Margen gingivial" 13b
+	$('#mg13b-a, #mg13b-b, #mg13b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar13b();
+	});
+	// Operations for "Margen gingivial" 12b
+	$('#mg12b-a, #mg12b-b, #mg12b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar12b();
+	});
+	// Operations for "Margen gingivial" 11b
+	$('#mg11b-a, #mg11b-b, #mg11b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar11b();
+	});
+	// ---------------------------------------------------------------------
 });
