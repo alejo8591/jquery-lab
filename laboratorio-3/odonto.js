@@ -3755,8 +3755,6 @@ $(document).ready(function(){
 		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar28a();
 	});
 	// ---------------------------------------------------------------------
-	// Table 2
-	// ---------------------------------------------------------------------
 	// Operations for "Profundidad Sondaje" 21
 	$('#ps21-a, #ps21-b, #ps21-c').change(function(event) {
 		cargar21a();getDefectos();
@@ -3792,7 +3790,6 @@ $(document).ready(function(){
 	//*************************************************************************************
 	// 18 - 11 down left palatino -Table 3
 	//*************************************************************************************
-	// ---------------------------------------------------------------------
 	// Operations for "Profundidad Sondaje" 18
 	$('#ps18b-a, #ps18b-b, #ps18b-c').change(function(event) {
 		cargar18b();getDefectos();
@@ -3859,4 +3856,70 @@ $(document).ready(function(){
 		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar11b();
 	});
 	// ---------------------------------------------------------------------
+	// ---------------------------------------------------------------------
+	// Operations for "Profundidad Sondaje" 21b
+	$('#ps21b-a, #ps21b-b, #ps21b-c').change(function(event) {
+		cargar21b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 22b
+	$('#ps22b-a, #ps22b-b, #ps22b-c').change(function(event) {
+		cargar22b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 23b
+	$('#ps23b-a, #ps23b-b, #ps23b-c').change(function(event) {
+		cargar23b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 24b
+	$('#ps24b-a, #ps24b-b, #ps24b-c').change(function(event) {
+		cargar24b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 25b
+	$('#ps25b-a, #ps25b-b, #ps25b-c').change(function(event) {
+		cargar25b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 26b
+	$('#ps26b-a, #ps26b-b, #psb26-c').change(function(event) {
+		cargar26b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 27b
+	$('#ps27b-a, #ps27b-b, #ps27b-c').change(function(event) {
+		cargar27b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 28b
+	$('#ps28b-a, #ps28b-b, #ps28b-c').change(function(event) {
+		cargar28b();getDefectos();
+	});
+	// ---------------------------------------------------------------------
+	// Operations for "Margen gingivial" 21b
+	$('#mg21b-a, #mg21-b, #mg21b-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar21b();
+	});
+	// Operations for "Margen gingivial" 22b
+	$('#mg22-a, #mg22-b, #mg22-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar22a();
+	});
+	// Operations for "Margen gingivial" 23b
+	$('#mg23-a, #mg23-b, #mg23-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar23a();
+	});
+	// Operations for "Margen gingivial" 24b
+	$('#mg24-a, #mg24-b, #mg24-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar24a();
+	});
+	// Operations for "Margen gingivial" 25b
+	$('#mg25-a, #mg25-b, #mg25-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar25a();
+	});
+	// Operations for "Margen gingivial" 26b
+	$('#mg26-a, #mg26-b, #mg26-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar26a();
+	});
+	// Operations for "Margen gingivial" 27b
+	$('#mg27-a, #mg27-b, #mg27-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar27a();
+	});
+	// Operations for "Margen gingivial" 28b
+	$('#mg28-a, #mg28-b, #mg28-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar28a();
+	});
 });
