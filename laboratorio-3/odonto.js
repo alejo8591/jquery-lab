@@ -3623,9 +3623,16 @@ function limitTextarea(textarea,maxLines,maxChar){
 	  var  totalAnchura=0;
 	  var  totalDientes = 32;
 
+/* Events for odonto */
 $(document).ready(function(){
+	// event for #ps18 a,b and c
 	$('#ps18-a, #ps18-b, #ps18-c').change(function(event) {
 		cargar18a();
 		getDefectos();
 	});
+	// calculate range
+	$('#m18, #m17, #m16, #m15, #m14, #m13, #m12, #m11').change(function(event) {
+		rangoNumero($(this).attr('name'));
+	});
+
 });
