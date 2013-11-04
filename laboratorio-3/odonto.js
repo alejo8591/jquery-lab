@@ -3626,7 +3626,7 @@ function limitTextarea(textarea,maxLines,maxChar){
 /* Events for odonto */
 $(document).ready(function(){
 	//*************************************************************************************
-	// 18 - 11 top left
+	// 18 - 11 top left vestibular
 	//*************************************************************************************
 	// event for #ps18 a,b and c
 	$('#ps18-a, #ps18-b, #ps18-c').change(function(event) {
@@ -3711,7 +3711,7 @@ $(document).ready(function(){
 		cargar11a();getDefectos();
 	});
 	//*************************************************************************************
-	// 21 - 28 top rigth
+	// 21 - 28 top rigth vestibular
 	//*************************************************************************************
 	// calculate range for "Movilidad"
 	$('#m21, #m22, #m23, #m24, #m25, #m26, #m27, #m28').change(function(event) {
@@ -3787,5 +3787,41 @@ $(document).ready(function(){
 	// Operations for "Profundidad Sondaje" 28
 	$('#ps28-a, #ps28-b, #ps28-c').change(function(event) {
 		cargar28a();getDefectos();
+	});
+	//*************************************************************************************
+	// 18 - 11 down left palatino
+	//*************************************************************************************
+	// ---------------------------------------------------------------------
+	// Operations for "Profundidad Sondaje" 18
+	$('#ps18b-a, #ps18b-b, #ps18b-c').change(function(event) {
+		cargar18b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 17
+	$('#ps17b-a, #ps17b-b, #ps17b-c').change(function(event) {
+		cargar17b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 16
+	$('#ps16b-a, #ps16b-b, #psb16-c').change(function(event) {
+		cargar16b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 15
+	$('#ps15b-a, #ps15b-b, #ps15b-c').change(function(event) {
+		cargar15b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 14
+	$('#ps14b-a, #ps14b-b, #ps14b-c').change(function(event) {
+		cargar14b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 13
+	$('#ps13b-a, #ps13v-b, #ps13b-c').change(function(event) {
+		cargar13b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 12
+	$('#ps12b-a, #ps12b-b, #ps12b-c').change(function(event) {
+		cargar12b();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 11
+	$('#ps11b-a, #ps11b-b, #ps11b-c').change(function(event) {
+		cargar11b();getDefectos();
 	});
 });

@@ -739,6 +739,19 @@ background: url('img/periodontograma-oblicuas.png') repeat-x center;
 	text-align:center;
 	border:none;
 }*/
+
+#ps18b-a,#ps18b-b,#ps18b-c,
+#ps17b-a,#ps17b-b,#ps17b-c,
+#ps16b-a,#ps16b-b,#ps16b-c,
+#ps15b-a,#ps15b-b,#ps15b-c,
+#ps14b-a,#ps14b-b,#ps14b-c,
+#ps13b-a,#ps13b-b,#ps13b-c,
+#ps12b-a,#ps12b-b,#ps12b-c,
+#ps11b-a,#ps11b-b,#ps11b-c{
+	color: #333;
+}
+
+
 #diente18b-a,#diente17b-a,#diente16b-a,
 #diente15b-a,#diente14b-a,#diente13b-a,
 #diente12b-a,#diente11b-a{
