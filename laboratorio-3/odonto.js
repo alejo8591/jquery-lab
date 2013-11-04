@@ -3625,6 +3625,9 @@ function limitTextarea(textarea,maxLines,maxChar){
 
 /* Events for odonto */
 $(document).ready(function(){
+	//*************************************************************************************
+	// 18 - 11 top left
+	//*************************************************************************************
 	// event for #ps18 a,b and c
 	$('#ps18-a, #ps18-b, #ps18-c').change(function(event) {
 		cargar18a();
@@ -3706,5 +3709,83 @@ $(document).ready(function(){
 	// Operations for "Profundidad Sondaje" 11
 	$('#ps11-a, #ps11-b, #ps11-c').change(function(event) {
 		cargar11a();getDefectos();
+	});
+	//*************************************************************************************
+	// 21 - 28 top rigth
+	//*************************************************************************************
+	// calculate range for "Movilidad"
+	$('#m21, #m22, #m23, #m24, #m25, #m26, #m27, #m28').change(function(event) {
+		rangoNumero($(this).attr('name'));
+	});
+	// Values for "Anchura encía"
+	$('#ae21, #ae22, #ae23, #ae24, #ae25, #ae26, #ae27, #ae128').change(function(event) {
+		anchuraValor();
+	});
+	// ---------------------------------------------------------------------
+	// Operations for "Margen gingivial" 21
+	$('#mg21-a, #mg21-b, #mg21-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar21a();
+	});
+	// Operations for "Margen gingivial" 22
+	$('#mg22-a, #mg22-b, #mg22-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar22a();
+	});
+	// Operations for "Margen gingivial" 23
+	$('#mg23-a, #mg23-b, #mg23-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar23a();
+	});
+	// Operations for "Margen gingivial" 24
+	$('#mg24-a, #mg24-b, #mg24-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar24a();
+	});
+	// Operations for "Margen gingivial" 25
+	$('#mg25-a, #mg25-b, #mg25-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar25a();
+	});
+	// Operations for "Margen gingivial" 26
+	$('#mg26-a, #mg26-b, #mg26-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar26a();
+	});
+	// Operations for "Margen gingivial" 27
+	$('#mg27-a, #mg27-b, #mg27-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar27a();
+	});
+	// Operations for "Margen gingivial" 28
+	$('#mg28-a, #mg28-b, #mg28-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar28a();
+	});
+	// ---------------------------------------------------------------------
+	// ---------------------------------------------------------------------
+	// Operations for "Profundidad Sondaje" 21
+	$('#ps21-a, #ps21-b, #ps21-c').change(function(event) {
+		cargar21a();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 22
+	$('#ps22-a, #ps22-b, #ps22-c').change(function(event) {
+		cargar22a();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 23
+	$('#ps23-a, #ps23-b, #ps23-c').change(function(event) {
+		cargar23a();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 24
+	$('#ps24-a, #ps24-b, #ps24-c').change(function(event) {
+		cargar24a();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 25
+	$('#ps25-a, #ps25-b, #ps25-c').change(function(event) {
+		cargar25a();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 26
+	$('#ps26-a, #ps26-b, #ps26-c').change(function(event) {
+		cargar26a();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 27
+	$('#ps27-a, #ps27-b, #ps27-c').change(function(event) {
+		cargar27a();getDefectos();
+	});
+	// Operations for "Profundidad Sondaje" 28
+	$('#ps28-a, #ps28-b, #ps28-c').change(function(event) {
+		cargar28a();getDefectos();
 	});
 });
