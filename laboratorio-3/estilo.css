@@ -154,8 +154,9 @@ input{
 }	
 .borde{
 		border: 1px solid #a4a4a4;
-		padding: 1px;
+		/* padding: 1px; */
 		text-align: center;
+		font-size: 9px;
 	}
 .noborde{
 		/*padding:2px 0 7px;*/

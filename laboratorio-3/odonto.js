@@ -3630,9 +3630,49 @@ $(document).ready(function(){
 		cargar18a();
 		getDefectos();
 	});
-	// calculate range
+	// calculate range for "Movilidad"
 	$('#m18, #m17, #m16, #m15, #m14, #m13, #m12, #m11').change(function(event) {
 		rangoNumero($(this).attr('name'));
 	});
 
+	// Values for "Anchura encía"
+	$('#ae18, #ae17, #ae16, #ae15, #ae14, #ae13, #ae12, #ae11').change(function(event) {
+		anchuraValor();
+	});
+	// ---------------------------------------------------------------------
+	// Operations for "Margen gingivial" 18
+	$('#mg18-a, #mg18-b, #mg18-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar18a();
+	});
+	// Operations for "Margen gingivial" 17
+	$('#mg17-a, #mg17-b, #mg17-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar17a();
+	});
+	// Operations for "Margen gingivial" 16
+	$('#mg16-a, #mg16-b, #mg16-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar16a();
+	});
+	// Operations for "Margen gingivial" 15
+	$('#mg15-a, #mg15-b, #mg15-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar15a();
+	});
+	// Operations for "Margen gingivial" 14
+	$('#mg14-a, #mg14-b, #mg14-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar14a();
+	});
+	// Operations for "Margen gingivial" 13
+	$('#mg13-a, #mg13-b, #mg13-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar13a();
+	});
+	// Operations for "Margen gingivial" 12
+	$('#mg12-a, #mg12-b, #mg12-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar12a();
+	});
+	// Operations for "Margen gingivial" 11
+	$('#mg11-a, #mg11-b, #mg11-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar11a();
+	});
+	// ---------------------------------------------------------------------
+
+	// ---------------------------------------------------------------------
 });
