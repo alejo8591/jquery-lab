@@ -1792,3 +1792,15 @@ img {
 }
 
 iframe {background-color:transparent;}
+
+/* special functions */
+
+/* For Appliying class for "Anchura Encias" */
+
+.normal-gums{ color: #000; }
+.abnormal-gums{ color: #ff0000;}
+
+/* Appliying class for "sangrado supuración" */
+.normal-bleeding {background: #fff; }
+.bleeding { background:#FA5858; }
+.bled-festered { background:url('img/sangrado-supuracion.png');}

@@ -3616,17 +3616,78 @@ function limitTextarea(textarea,maxLines,maxChar){
 			drawVisualization31b(data31b);
 			
 	  }
-	  
 
 	  var  totalSangrado=0;
 	  var  totalPlaca=0;
 	  var  totalAnchura=0;
 	  var  totalDientes = 32;
 
+
+	function getSangrado(){
+		$("#suma").text(Math.round((totalSangrado/(totalDientes*6)*100)));
+	}
+	
+	function getPlaca(){
+		$("#suma2").text(Math.round((totalPlaca/(totalDientes*6)*100)));
+	}
+
 /* Events for odonto */
 $(document).ready(function(){
+	//---------------------------------------------------------------------------------
+	// Appliying class for "Anchura Encias" #ae18 - #ae11
+	$('#ae18, #ae17, #ae16, #ae15, #ae14, #ae13, #ae12, #ae11').change(function() {
+		if (parseInt($(this).val())<3) {
+			$(this).addClass('abnormal-gums').removeClass('normal-gums');
+		} else {
+			$(this).addClass('normal-gums').removeClass('abnormal-gums');
+		}
+	});
+	// Appliying class for "Anchura Encias" #ae28 - #ae21
+	$('#ae28, #ae27, #ae26, #ae25, #ae24, #ae23, #ae22, #ae21').change(function() {
+		if (parseInt($(this).val())<3) {
+			$(this).addClass('abnormal-gums').removeClass('normal-gums');
+		} else {
+			$(this).addClass('normal-gums').removeClass('abnormal-gums');
+		}
+	});
+	// Appliying class for "Anchura Encias" #ae48b - #ae41b
+	$('#ae48b, #ae47b, #ae46b, #ae45b, #ae44b, #ae43b, #ae42b, #ae41b').change(function() {
+		if (parseInt($(this).val())<3) {
+			$(this).addClass('abnormal-gums').removeClass('normal-gums');
+		} else {
+			$(this).addClass('normal-gums').removeClass('abnormal-gums');
+		}
+	});
+	// Appliying class for "Anchura Encias" #ae38b - #ae31b
+	$('#ae38b, #ae37b, #ae36b, #ae35b, #ae34b, #ae33b, #ae32b, #ae31b').change(function() {
+		if (parseInt($(this).val())<3) {
+			$(this).addClass('abnormal-gums').removeClass('normal-gums');
+		} else {
+			$(this).addClass('normal-gums').removeClass('abnormal-gums');
+		}
+	});
+	//------------------------------------------------------------------------------------
+	// Appliying class for "sangrado  / supuración" #s18a - #a11a
+	$('#s18-a').toggle(
+      function () {
+        $(this).css({"background":"#FA5858"});
+		 totalSangrado++;
+		 getSangrado();
+      },
+	  function () {
+        $(this).css({"background":"url('img/sangrado-supuracion.png')"});
+      },
+      function () {
+        $(this).css({"background":"#FFFFFF"});
+		 totalSangrado--;
+		 getSangrado();
+      });
+
 	//*************************************************************************************
-	// 18 - 11 top left vestibular
+	// ---------------------------------- SUPERIOR ----------------------------------------
+	//*************************************************************************************
+	//*************************************************************************************
+	// 18 - 11 top left vestibular SUPERIOR
 	//*************************************************************************************
 	// event for #ps18 a,b and c
 	$('#ps18-a, #ps18-b, #ps18-c').change(function(event) {
@@ -3675,8 +3736,6 @@ $(document).ready(function(){
 	$('#mg11-a, #mg11-b, #mg11-c').change(function(event) {
 		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar11a();
 	});
-	// ---------------------------------------------------------------------
-
 	// ---------------------------------------------------------------------
 	// Operations for "Profundidad Sondaje" 18
 	$('#ps18-a, #ps18-b, #ps18-c').change(function(event) {
@@ -3921,5 +3980,41 @@ $(document).ready(function(){
 	// Operations for "Margen gingivial" 28b
 	$('#mg28b-a, #mg28b-b, #mg28b-c').change(function(event) {
 		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar28b();
+	});
+	//*************************************************************************************
+	// ---------------------------------- INFERIOR ----------------------------------------
+	//*************************************************************************************
+	// ---------------------------------------------------------------------
+	// Operations for "Margen gingivial" 48
+	$('#mg48-a, #mg48-b, #mg48-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar48a();
+	});
+	// Operations for "Margen gingivial" 47
+	$('#mg47-a, #mg47-b, #mg47-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar47a();
+	});
+	// Operations for "Margen gingivial" 46
+	$('#mg46-a, #mg46-b, #mg46-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar46a();
+	});
+	// Operations for "Margen gingivial" 45
+	$('#mg45-a, #mg45-b, #mg45-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar45a();
+	});
+	// Operations for "Margen gingivial" 44
+	$('#mg44-a, #mg44-b, #mg44-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar44a();
+	});
+	// Operations for "Margen gingivial" 43
+	$('#mg43-a, #mg43-b, #mg43-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar43a();
+	});
+	// Operations for "Margen gingivial" 42
+	$('#mg42-a, #mg42-b, #mg42-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar42a();
+	});
+	// Operations for "Margen gingivial" 41
+	$('#mg41-a, #mg42-b, #mg41-c').change(function(event) {
+		getDefectos(); rangoNumeroMargen($(this).attr('name')); cargar41a();
 	});
 });
