@@ -1801,6 +1801,6 @@ iframe {background-color:transparent;}
 .abnormal-gums{ color: #ff0000;}
 
 /* Appliying class for "sangrado supuración" */
-.normal-bleeding {background: #fff; }
 .bleeding { background:#FA5858; }
 .bled-festered { background:url('img/sangrado-supuracion.png');}
+.normal-bleeding {background: #fff; }

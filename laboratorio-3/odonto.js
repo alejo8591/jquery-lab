@@ -3667,20 +3667,20 @@ $(document).ready(function(){
 		}
 	});
 	//------------------------------------------------------------------------------------
-	// Appliying class for "sangrado  / supuración" #s18a - #a11a
-	$('#s18-a').toggle(
-      function () {
+	// Appliying class for "sangrado/supuración" #s18a - #s11c for table 1
+	$('#s18-a, #s18-b, #s18-c, #s17-a, #s17-b, #s16-c,#s16-a, #s16-b, #s15-c,#s15-a, #s15-b, #s15-c, #s14-a, #s14-b, #s14-c, #s13-a, #s13-b, #s13-c, #s12-a, #s12-b, #s12-c, #s11-a, #s11-b, #s11-c').toggle(
+		function () {
         $(this).css({"background":"#FA5858"});
-		 totalSangrado++;
-		 getSangrado();
-      },
-	  function () {
-        $(this).css({"background":"url('img/sangrado-supuracion.png')"});
-      },
-      function () {
-        $(this).css({"background":"#FFFFFF"});
-		 totalSangrado--;
-		 getSangrado();
+			 totalSangrado++;
+			 getSangrado();
+      	},
+	  	function () {
+        	$(this).css({"background":"url('img/sangrado-supuracion.png')"});
+      	},
+      	function () {
+        	$(this).css({"background":"#FFFFFF"});
+		 	totalSangrado--;
+		 	getSangrado();
       });
 
 	//*************************************************************************************
